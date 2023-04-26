@@ -32,7 +32,7 @@ class BaseClass:
         logger.setLevel(logging.DEBUG)
 
         # We add a file handler to save the path we want to store the log in
-        fileHandler = logging.FileHandler('debug.log')
+        fileHandler = logging.FileHandler('reports/debug.log')
 
         # Format the log
         format = logging.Formatter(
